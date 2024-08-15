@@ -1,1 +1,208 @@
+/* Estilo para o cabeçalho */
+header {
+    background-image: url("C:/Users/felip/OneDrive/Pictures/Capturas de tela/Captura de tela 2024-03-28 082436.png");
+    background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    position: static; /* Define o posicionamento estático */
+    height: 458px; /* Altura do cabeçalho */
+    left: -8px; /* Desloca o cabeçalho para a esquerda */
+    top: -8px; /* Desloca o cabeçalho para cima */
+    margin: 5px 8px 55px 6px; /* Define a margem ao redor do cabeçalho */
+}
+
+/* Estilo para o container principal */
+.containerr2 {
+    display: flex; /* Define o layout como flexível */
+    flex-direction: column; /* Alinha os itens em coluna */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 2rem; /* Espaçamento interno */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal */
+    gap: 1.5rem; /* Espaço entre os itens */
+}
+
+/* Estilo para o título h4 */
+h4 {
+    color: rgb(240, 255, 255); /* Cor do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font: 600 2em 'Luckiest Guy'; /* Define a fonte e o tamanho */
+    width: 100%; /* Largura do elemento */
+    max-width: 300px; /* Largura máxima do elemento */
+}
+
+/* Estilo para os parágrafos */
+p {
+    width: 100%; /* Largura do elemento */
+    max-width: 672px; /* Largura máxima do elemento */
+    color: azure; /* Cor do texto */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
+}
+
+/* Estilo para o container dos botões */
+#containerbt {
+    display: flex; /* Define o layout como flexível */
+    flex-wrap: wrap; /* Permite que os itens envolvam-se para a próxima linha */
+    gap: 1rem; /* Espaço entre os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estilo para os botões */
+#btnlj, #btnlk {
+    border-radius: 29px; /* Arredonda os cantos do botão */
+    height: 45px; /* Altura do botão */
+    width: 100%; /* Largura do botão */
+    max-width: 226px; /* Largura máxima do botão */
+    font-family: sans-serif; /* Fonte do texto no botão */
+    font-weight: 500; /* Peso da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+#btnlk {
+    background-color: black; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    max-width: 256px; /* Largura máxima do botão */
+}
+
+/* Estilo para o container de imagens */
+.containerimg {
+    display: flex; /* Define o layout como flexível */
+    flex-wrap: wrap; /* Permite que os itens envolvam-se para a próxima linha */
+    align-items: center; /* Alinha os itens ao longo do eixo transversal */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 1rem; /* Espaço entre os itens */
+    margin: 20px auto; /* Margem ao redor do container */
+    padding: 1rem; /* Espaçamento interno */
+    width: 100%; /* Largura do container */
+    background: #f6f6f6; /* Cor de fundo do container */
+}
+
+/* Estilo para a imagem dentro do container */
+.frame {
+    width: 608px; /* Largura da imagem */
+    height: 396px; /* Altura da imagem */
+}
+
+/* Estilo para o container do texto */
+#containertexto {
+    margin: 0 1rem; /* Margem ao redor do container de texto */
+    flex: 1; /* Permite que o container de texto cresça */
+}
+
+/* Estilo para o texto principal */
+.textoo {
+    color: rgb(26, 26, 25); /* Cor do texto */
+    text-transform: none; /* Não transforma o texto */
+    font: 900 2.26em 'Open Sans'; /* Define a fonte e o tamanho */
+}
+
+/* Estilo para o texto secundário */
+.textoy {
+    text-decoration: none; /* Remove decoração do texto */
+    font-weight: 500; /* Peso da fonte */
+    color: rgb(26, 26, 25); /* Cor do texto */
+    font-family: 'Open Sans'; /* Fonte do texto */
+    height: 69px; /* Altura do texto */
+}
+
+/* Estilo específico para diferentes tipos de containers de imagem */
+.containerimg:nth-of-type(2) {
+    background: #F6F6F6; /* Cor de fundo */
+}
+
+.containerimg:nth-of-type(3) {
+    background: rgb(255, 255, 255); /* Cor de fundo */
+}
+
+.containerimg:nth-of-type(4) {
+    background: #F6F6F6; /* Cor de fundo */
+    display: inline-flex; /* Layout flexível */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal */
+    height: 100%; /* Altura do container */
+    margin: 18px -6px 5px -8px; /* Margem ao redor do container */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+.containerimg:nth-of-type(4) img {
+    width: 706px; /* Largura da imagem */
+    height: 416.6px; /* Altura da imagem */
+}
+
+/* Estilo para o título principal */
+h2 {
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font: 600 2em 'Luckiest Guy'; /* Define a fonte e o tamanho */
+    width: 100%; /* Largura do elemento */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo para o rodapé */
+footer {
+    width: 100%; /* Largura do rodapé */
+    height: 125px; /* Altura do rodapé */
+    background-color: #23272A; /* Cor de fundo */
+    background-image: url("C:/Users/felip/OneDrive/Pictures/Capturas de tela/Captura de tela 2024-04-02 080209.png");
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    background-position: center; /* Posiciona a imagem ao centro */
+}
+
+/* Estilos responsivos para telas menores que 429px */
+@media screen and (max-width: 429px) {
+    header {
+        background-image: url("C:/Users/felip/OneDrive/Pictures/Capturas de tela/Captura de tela 2024-03-28 082436.png");
+        background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
+        background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+        width: 435.8px; /* Largura do cabeçalho */
+        height: 512px; /* Altura do cabeçalho */
+        background-position-x: -754px; /* Ajusta a posição da imagem de fundo */
+    }
+
+    .containerr2 {
+        padding: 85.9px 10px 18px 28px; /* Espaçamento interno ajustado para telas menores */
+        text-align: inherit; /* Mantém o alinhamento do texto */
+    }
+
+    h4 {
+        width: 300px; /* Largura do título */
+    }
+
+    p {
+        width: 380px; /* Largura do parágrafo */
+    }
+
+    #containerbt {
+        flex-direction: column; /* Alinha os itens em coluna */
+        gap: 22px; /* Espaço entre os itens */
+        align-items: center; /* Centraliza os itens horizontalmente */
+    }
+
+    #btnlj, #btnlk {
+        width: 355px; /* Largura dos botões ajustada */
+    }
+
+    .containerimg {
+        height: 478px; /* Altura do container de imagens ajustada */
+        width: 438px; /* Largura do container de imagens ajustada */
+        flex-direction: column; /* Alinha as imagens em coluna */
+    }
+
+    .frame {
+        width: 385px; /* Largura da imagem ajustada */
+        height: 255px; /* Altura da imagem ajustada */
+    }
+
+    #containertexto {
+        margin: 12px 6px; /* Margem ajustada */
+    }
+
+    .textoo {
+        font: 900 1.64em 'Open Sans'; /* Fonte e tamanho ajustados */
+        width: 408px; /* Largura do texto ajustada */
+    }
+
+    .textoy {
+        width: 385px; /* Largura do texto ajustada */
+    }
+
+    .containerimg:nth-of-type(2) {
+        width: 438px
 
