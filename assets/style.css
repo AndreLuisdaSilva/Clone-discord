@@ -140,7 +140,7 @@ footer {
     width: 100%; /* Largura do rodapé */
     height: 125px; /* Altura do rodapé */
     background-color: #23272A; /* Cor de fundo */
-    background-image: url("assets/imgs/Captura de tela 2024-04-02 080209.png");
+    background-image: url("imgs/Captura de tela 2024-04-02 080209.png");
     background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
     background-position: center; /* Posiciona a imagem ao centro */
 }
