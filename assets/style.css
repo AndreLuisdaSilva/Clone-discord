@@ -1,6 +1,6 @@
 /* Estilo para o cabeçalho */
 header {
-    background-image: url("assets/imgs/Captura de tela 2024-03-28 082436.png");
+    background-image: url("imgs/Captura de tela 2024-03-28 082436.png");
     background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
     background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
     position: static; /* Define o posicionamento estático */
@@ -148,7 +148,7 @@ footer {
 /* Estilos responsivos para telas menores que 429px */
 @media screen and (max-width: 429px) {
     header {
-        background-image: url("assets/imgs/Captura de tela 2024-03-28 082436.png");
+        background-image: url("imgs/Captura de tela 2024-03-28 082436.png");
         background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
         background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
         width: 435.8px; /* Largura do cabeçalho */
