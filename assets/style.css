@@ -1,6 +1,6 @@
 /* Estilo para o cabeçalho */
 header {
-    background-image: url("C:/Users/felip/OneDrive/Pictures/Capturas de tela/Captura de tela 2024-03-28 082436.png");
+    background-image: url("assets/imgs/Captura de tela 2024-03-28 082436.png");
     background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
     background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
     position: static; /* Define o posicionamento estático */
@@ -140,7 +140,7 @@ footer {
     width: 100%; /* Largura do rodapé */
     height: 125px; /* Altura do rodapé */
     background-color: #23272A; /* Cor de fundo */
-    background-image: url("C:/Users/felip/OneDrive/Pictures/Capturas de tela/Captura de tela 2024-04-02 080209.png");
+    background-image: url("assets/imgs/Captura de tela 2024-04-02 080209.png");
     background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
     background-position: center; /* Posiciona a imagem ao centro */
 }
@@ -148,7 +148,7 @@ footer {
 /* Estilos responsivos para telas menores que 429px */
 @media screen and (max-width: 429px) {
     header {
-        background-image: url("C:/Users/felip/OneDrive/Pictures/Capturas de tela/Captura de tela 2024-03-28 082436.png");
+        background-image: url("assets/imgs/Captura de tela 2024-03-28 082436.png");
         background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
         background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
         width: 435.8px; /* Largura do cabeçalho */
