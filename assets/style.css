@@ -195,8 +195,9 @@ footer {
     }
 
     .frame {
-        width: 385px; /* Largura da imagem ajustada */
-        height: 255px; /* Altura da imagem ajustada */
+        width: 100%;
+        margin: 5px;
+        height: auto;
     }
 
     #containertexto {
@@ -228,11 +229,9 @@ footer {
     }
     
     .containerimg:nth-of-type(4) img{
-        width: 385px;
-        margin: 5px 5px 5px 16px;
-        height: 255px;
-
-
+        width: 100%;
+        margin: 5px;
+        height: auto;
     }
     
       .containerimg:nth-of-type(4) .textoy{
