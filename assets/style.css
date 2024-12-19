@@ -222,7 +222,7 @@ footer {
         align-items: unset;
         background: #F6F6F6;
         width: 438px;
-        height: 506px;
+        height: auto;
         margin: 18px -6px 5px -8px;
         text-align: left;
     }
