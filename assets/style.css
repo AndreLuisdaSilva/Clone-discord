@@ -188,9 +188,10 @@ footer {
     }
 
     .containerimg {
-        height: 478px; /* Altura do container de imagens ajustada */
+        height: 100%; /* Altura do container de imagens ajustada */
         width: 438px; /* Largura do container de imagens ajustada */
         flex-direction: column; /* Alinha as imagens em coluna */
+        gap: 0.5rem;
     }
 
     .frame {
