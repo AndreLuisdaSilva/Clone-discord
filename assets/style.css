@@ -213,4 +213,41 @@ footer {
 
     .containerimg:nth-of-type(2) {
         width: 438px
+    }
 
+    .containerimg:nth-of-type(4){
+        display: inline-flex;
+        flex-direction: column;
+        align-items: unset;
+        background: #F6F6F6;
+        width: 438px;
+        height: 506px;
+        margin: 18px -6px 5px -8px;
+        text-align: left;
+    }
+    
+    .containerimg:nth-of-type(4) img{
+        width: 385px;
+        margin: 5px 5px 5px 16px;
+        height: 255px;
+
+
+    }
+    
+      .containerimg:nth-of-type(4) .textoy{
+        text-decoration: none;
+        font-weight: 500;
+        color: rgb(26, 26, 25);
+        width: 392px;
+        font-family: 'Luckiest Guy';
+        height: 122px;
+        margin: 18.5px 5px 5px 16.8px;
+    }
+    
+    h2{
+        text-transform: uppercase;
+        font: 900 1.56em 'Luckiest Guy';
+        width: 435.5px;
+        margin: 19.5px 5px 5px 16.8px;
+        height: 60px;
+    }
