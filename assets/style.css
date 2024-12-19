@@ -77,8 +77,8 @@ p {
 
 /* Estilo para a imagem dentro do container */
 .frame {
-    width: 608px; /* Largura da imagem */
-    height: 396px; /* Altura da imagem */
+    width: 100%;
+    height: auto;
 }
 
 /* Estilo para o container do texto */
@@ -123,8 +123,8 @@ p {
 }
 
 .containerimg:nth-of-type(4) img {
-    width: 706px; /* Largura da imagem */
-    height: 416.6px; /* Altura da imagem */
+    width: 100%;
+    height: auto;
 }
 
 /* Estilo para o título principal */
