@@ -240,7 +240,7 @@ footer {
         color: rgb(26, 26, 25);
         width: 392px;
         font-family: 'Luckiest Guy';
-        height: 122px;
+        height: auto;
         margin: 18.5px 5px 5px 16.8px;
     }
     
