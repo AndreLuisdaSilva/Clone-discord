@@ -77,8 +77,8 @@ p {
 
 /* Estilo para a imagem dentro do container */
 .frame {
-    width: 100%;
-    height: auto;
+    width: 608px; /* Largura da imagem */ 
+    height: 396px; /* Altura da imagem */  
 }
 
 /* Estilo para o container do texto */
@@ -123,8 +123,8 @@ p {
 }
 
 .containerimg:nth-of-type(4) img {
-    width: 100%;
-    height: auto;
+    width: 706px; /* Largura da imagem */ 
+    height: 416.6px; /* Altura da imagem */
 }
 
 /* Estilo para o título principal */
@@ -145,8 +145,8 @@ footer {
     background-position: center; /* Posiciona a imagem ao centro */
 }
 
-/* Estilos responsivos para telas menores que 485px */
-@media screen and (max-width: 485px) {
+/* Estilos responsivos para telas menores que 658px */
+@media screen and (max-width: 658px) {
     header {
         background-image: url("imgs/Captura de tela 2024-03-28 082436.png");
         background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
