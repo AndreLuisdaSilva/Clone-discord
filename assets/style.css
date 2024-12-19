@@ -145,8 +145,8 @@ footer {
     background-position: center; /* Posiciona a imagem ao centro */
 }
 
-/* Estilos responsivos para telas menores que 429px */
-@media screen and (max-width: 429px) {
+/* Estilos responsivos para telas menores que 485px */
+@media screen and (max-width: 485px) {
     header {
         background-image: url("imgs/Captura de tela 2024-03-28 082436.png");
         background-size: cover; /* Faz a imagem de fundo cobrir o elemento */
